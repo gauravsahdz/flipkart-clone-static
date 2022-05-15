@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipkart | shop your comfort</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Starting of Header <section></section> -->
+    <header class="header">
+      <i id="searchIcon" class="fa fa-search"></i>
+      <img id="logo" src="img/flipkart logo.png" />
+      <input
+        type="text"
+        id="search"
+        placeholder="Search for products, brands and more"
+      />
+      <span id="explore">
+        Explore <span><a id="plus" href="plus.html">Plus&copy;</a></span>
+      </span>
+      <nav id="navbar">
+        <button id="login">Login</button>
+        <ul>
+          <li>
+            <div class="dropdown">
+              <button class="dropbtn">More</button>
+              <div class="dropdown-content">
+                <a href="#"
+                  ><i class="more fa fa-bell"></i> Notification preferences</a
+                >
+                <a href="#"
+                  ><i class="more fa fa-briefcase"></i> Sell on Flipkart</a
+                >
+                <a href="#"
+                  ><i class="more fa fa-question"></i> 24x7 Customer care</a
+                >
+                <a href="#"><i class="more fa fa-line-chart"></i> Advertise</a>
+                <a href="#"><i class="more fa fa-download"></i> Download app</a>
+              </div>
+            </div>
+          </li>
+          <li id="cart">
+            <a href="cart.html"
+              ><i class="pull-left fa fa-cart-plus"></i> Cart</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- End of header <section></section> -->
+
+    <!-- Starting of main <section></section> -->
+    <main class="main">
+      <div class="banner">
+        <div class="bannerCard">
+          <img src="img/top banner/top offers.png" alt="" />
+          <span class="caption">Top Offers</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/grocery.png" alt="" />
+          <span class="caption">Grocery</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/fashion.png" alt="" />
+          <span class="caption">Fashion</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/appliances.png" alt="" />
+          <span class="caption">Appliances</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/mobiles.png" alt="" />
+          <span class="caption">Mobiles</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/electronics.png" alt="" />
+          <span class="caption">Electronics</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/home.png" alt="" />
+          <span class="caption">Home</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/travels.png" alt="" />
+          <span class="caption">Travels</span>
+        </div>
+        <div class="bannerCard">
+          <img src="img/top banner/beauty, toys and more.png" alt="" />
+          <span class="caption">Beauty, toys and more</span>
+        </div>
+      </div>
+
+      <div class="imageSlider">
+        <div class="slider">
+          <img src="img/imageSlider/img1.png" alt="" />
+        </div>
+        <div class="slider">
+          <img
+            src="img/imageSlider/img2.jpg"
+            alt=""
+            height="400px"
+            width="1300px"
+          />
+        </div>
+        <div class="slider">
+          <img
+            src="img/imageSlider/img3.jpg"
+            alt=""
+            height="400px"
+            width="1300px"
+          />
+        </div>
+        <div class="slider">
+          <img
+            src="img/imageSlider/img4.png"
+            alt=""
+            height="400px"
+            width="1300px"
+          />
+        </div>
+        <div class="slider">
+          <img
+            src="img/imageSlider/img5.jpg"
+            alt=""
+            height="400px"
+            width="1300px"
+          />
+        </div>
+        <div class="slider">
+          <img
+            src="img/imageSlider/img6.jpg"
+            alt=""
+            height="400px"
+            width="1300px"
+          />
+        </div>
+        <span class="btn prev" onclick="controller(-1)">&#10094;</span>
+        <span class="btn next" onclick="controller(1)">&#10095;</span>
+      </div>
+
+      <div class="linear">
+        Deals of the day_
+        <i class="fa fa-clock-o pull-left"></i>
+        <p id="countdown-timer"></p>
+      </div>
+
+      <div class="banner1">
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/300/300/k51cpe80pkrrdj/headphone-refurbished/y/b/c/c-rockerz-on-ear-510-boat-original-imafn6u7ec8cmk8y.jpeg?q=70"
+            alt=""
+          />
+          <span class="caption">Monster headphone</span>
+          <p class="price">Rs. 800</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/flap/300/300/image/82d50d0fd2221dc9.jpg?q=70"
+            alt=""
+          />
+          <span class="caption">Glass mobile cover</span>
+          <p class="price">Rs. 300</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/612/612/kiqbma80-0/speaker/mobile-tablet-speaker/u/s/g/bs5rm2-bk-mivi-original-imafyg8xbv9rfsnn.jpeg?q=70"
+            alt=""
+          />
+          <span class="caption">Mivi speaker</span>
+          <p class="price">Rs. 1800</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/452/542/kf2v3ww0-0/sandal/g/a/b/brd-216-217-218-220-7-birde-multicolor-original-imafvma6rcq5atpp.jpeg?q=50"
+            alt=""
+          />
+          <span class="caption">Paragon sandle</span>
+          <p class="price">Rs. 200</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/300/300/jxnksy80/tablet/u/h/h/samsung-sm-t290nzkains-original-imafg2ghyj9zhgnv.jpeg?q=70"
+            alt=""
+          />
+          <span class="caption">Samsung tablet</span>
+          <p class="price">Rs. 13000</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/300/300/j8rnpu80/watch/d/5/y/b172-casio-original-imaeymgrxhfmnw6f.jpeg?q=70"
+            alt=""
+          />
+          <span class="caption">Casio wrist watch</span>
+          <p class="price">Rs. 340</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/300/300/jk5r3bk0/frame/8/v/p/50-2179-bl-2179-floral-frame-azmani-original-imaf7gsdxckzkybg.jpeg?q=70"
+            alt=""
+          />
+          <span class="caption">Paired specs</span>
+          <p class="price">Rs. 560</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/300/300/kjn6qvk0-0/shoe/d/c/v/ck2669-001nike-12-nike-black-white-smoke-grey-original-imafz5vwe5t53z3t.jpeg?q=70"
+            alt=""
+          />
+          <span class="caption">Sport shoes</span>
+          <p class="price">Rs. 590</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="bannerCard">
+          <img
+            class="purchaseImg"
+            src="https://rukminim1.flixcart.com/image/300/300/ji20r680/vacuum-cleaner/8/t/f/philips-powerpro-compact-fc9352-01-bagless-original-imaf5xqwak9evffz.jpeg?q=70"
+            alt=""
+          />
+          <span class="caption">Vaccum cleaners</span>
+          <p class="price">Rs. 4400</p>
+          <button class="add-to-cart">Add to cart</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>&copy; 2021 Flipcart.com</footer>
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
